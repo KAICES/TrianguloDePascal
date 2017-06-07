@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class TriangulodePascal {
 
-    static int Fil  = Integer.parseInt(JOptionPane.showInputDialog("Digite el tamaño del triangulo de pascal: "));
+    static int Fil  = (Integer.parseInt(JOptionPane.showInputDialog("Digite el tamaño del triangulo de pascal: "))+1);
     static int Col = Fil;
     
            public static void main ( String [] Args ) {
